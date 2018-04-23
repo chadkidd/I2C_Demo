@@ -1,0 +1,8 @@
+
+bin_PROGRAMS = I2C_Demo
+I2C_Demo_SOURCES = I2C_Demo.c smbus.c
+
+AM_CFLAGS = @I2C_Demo_CFLAGS@
+AM_LDFLAGS = @I2C_Demo_LIBS@
+
+CLEANFILES = *~ 

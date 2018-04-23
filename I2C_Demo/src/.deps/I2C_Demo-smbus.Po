@@ -1,0 +1,133 @@
+I2C_Demo-smbus.o: smbus.c \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/stdc-predef.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/sys/ioctl.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/features.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/wordsize-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/long-double.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/long-double-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/gnu/stubs-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/ioctls.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/ioctls.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/ioctls-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/ioctls.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/ioctl.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/ioctl.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/ioctl.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/ioctl-types.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/sys/ttydefaults.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/i2c-dev.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/types.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/types.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/types-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/int-ll64.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/bitsperlong.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/bitsperlong-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/bitsperlong.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/posix_types.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/stddef.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/posix_types.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/posix_types-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/posix_types.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/i2c.h \
+ /opt/fslc-x11/2.4.1/sysroots/x86_64-fslcsdk-linux/usr/lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/7.2.0/include/stdint.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/stdint.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/libc-header-start.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/types.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/typesizes-32.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/wchar.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/stdint-intn.h \
+ /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/stdint-uintn.h \
+ smbus.h
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/stdc-predef.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/sys/ioctl.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/features.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/wordsize-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/long-double.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/long-double-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/gnu/stubs-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/ioctls.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/ioctls.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/ioctls-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/ioctls.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/ioctl.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/ioctl.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/ioctl.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/ioctl-types.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/sys/ttydefaults.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/i2c-dev.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/types.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/types.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/types-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/int-ll64.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/bitsperlong.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/bitsperlong-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/bitsperlong.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/posix_types.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/stddef.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/posix_types.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm/posix_types-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/asm-generic/posix_types.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/linux/i2c.h:
+
+/opt/fslc-x11/2.4.1/sysroots/x86_64-fslcsdk-linux/usr/lib/arm-fslc-linux-gnueabi/gcc/arm-fslc-linux-gnueabi/7.2.0/include/stdint.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/stdint.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/libc-header-start.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/typesizes-32.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/wchar.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/stdint-intn.h:
+
+/opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi/usr/include/bits/stdint-uintn.h:
+
+smbus.h:

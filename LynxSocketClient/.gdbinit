@@ -1,0 +1,1 @@
+set sysroot /opt/fslc-x11/2.4.1/sysroots/armv7at2hf-neon-fslc-linux-gnueabi

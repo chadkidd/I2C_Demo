@@ -129,46 +129,6 @@ int main(void) {
 }
 
 /************************************************************
- * Name: remove_accel_driver
- *
- * Description:  experimental, uses modprobe to remove
- * 				 fxos8700 driver
- ************************************************************/
-/*
-static int32_t remove_accel_driver(void)
-{
-	int8_t buf[40];
-	FILE *fp;
-	char *s = malloc(sizeof(int8_t) * 200);
-	int stat = 0;
-
-	memset(buf, 0, sizeof(buf));
-	sprintf(buf, "modprobe -r fxos8700");
-	fp = popen(buf, "r");
-	if(fp == NULL)
-	{
-		perror("Failed to remove accel/mag driver");
-		free(s);
-		return -1;
-
-	}
-
-	//wait for a response from the modprobe command
-	//for(uint8_t i = 0; i < 4; i++)
-	//{
-	//	usleep(1000);
-	//	fgets(s, sizeof(int8_t)*200, fp);
-	//	printf("%s", s);
-	//	if(strstr(s, "Success") != 0)
-	//		break;
-	//}
-
-	stat = pclose(fp);
-	free(s);
-	return WEXITSTATUS(stat);
-}
-*/
-/************************************************************
  * Name: gpio_accel_reset
  *
  * Description:  exports GPIO pin for accel/mag reset
